@@ -2,7 +2,7 @@
 
 《霧港撤離》是一款以火山噴發為背景的撤離生存文字遊戲，這個網站是它的世界觀資料庫：道具、地圖區域、勢力……
 
-- 🌐 網站：https://<你的帳號>.github.io/fog-harbor-wiki/
+- 🌐 網站：https://jamespai901226.github.io/fog-harbor-wiki/
 - 🤖 AI 規則：[CLAUDE.md](./CLAUDE.md)
 - 📝 AI 協作紀錄：[docs/ai-log.md](./docs/ai-log.md)
 
