@@ -12,6 +12,14 @@
 
 ---
 
+## 2026-11-16｜新增 factions（勢力）分類
+- 指令：請先完整閱讀專案根目錄的 CLAUDE.md，之後所有修改都必須遵守它的規則。
+- 修改的檔案：`data/categories.json`、`CLAUDE.md`（4.3 節）、`docs/ai-log.md`；新增 `data/factions.json`、`templates/factions.json`
+- 新增內容：勢力分類（欄位 `threat` level、`members` number、`hostile` bool、`territory` refs→zones、`tags`），勢力 3 筆：漁會殘部、守鐘人、赤喉信眾
+- check.py 結果：✅ 全部通過：3 個分類、12 筆資料
+
+---
+
 <!--
 下一步示範（請在新的 AI 對話中執行，然後把結果記錄在下面）：
 

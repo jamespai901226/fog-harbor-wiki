@@ -94,6 +94,10 @@ fog-harbor-wiki/
 **zones（地圖區域）**：`danger`（1～5）、`ashPhase`（第幾階段被灰圈覆蓋）、`extractions`（撤離點名稱）
 - 越靠近赤喉火山：`ashPhase` 越小、`danger` 越高、戰利品越值錢
 
+**factions（勢力）**：`threat`（威脅度 1～5）、`members`（成員人數，單位：人）、`hostile`（`true` 見面即開火／`false` 可交易）、`territory` → zones（控制區域）、`tags`
+- `territory` 會讓區域頁面自動列出「在此活動的勢力」，關聯只寫在勢力這一邊，不要在 zones 加反向欄位
+- 控制越靠近赤喉火山區域的勢力，`threat` 通常越高
+
 ---
 
 ## 5. 標準作業流程（SOP）

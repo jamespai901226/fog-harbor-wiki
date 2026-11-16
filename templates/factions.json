@@ -1,0 +1,11 @@
+{
+  "id": "english-kebab-case-id",
+  "name": "中文名稱",
+  "threat": 1,
+  "members": 0,
+  "hostile": false,
+  "territory": ["必須是 data/zones.json 裡已存在的 id"],
+  "tags": ["1～3 個標籤"],
+  "desc": "一句話描述這個勢力，40 字以內。",
+  "lore": "背景故事，40～120 字，要和霧港、赤喉火山的世界觀一致。"
+}

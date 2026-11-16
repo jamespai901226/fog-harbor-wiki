@@ -27,5 +27,20 @@
       { "key": "ashPhase", "label": "灰圈覆蓋階段", "type": "number", "unit": "階段", "card": true },
       { "key": "extractions", "label": "撤離點", "type": "tags" }
     ]
+  },
+  {
+    "key": "factions",
+    "name": "勢力",
+    "icon": "⚔️",
+    "file": "data/factions.json",
+    "template": "templates/factions.json",
+    "desc": "灰圈之下仍在霧港市活動的各方勢力。有人做買賣，有人只認槍口。",
+    "fields": [
+      { "key": "threat", "label": "威脅度", "type": "level", "card": true },
+      { "key": "members", "label": "成員人數", "type": "number", "unit": "人", "card": true },
+      { "key": "hostile", "label": "立場", "type": "bool", "trueText": "見面即開火", "falseText": "可交易", "card": true },
+      { "key": "territory", "label": "控制區域", "type": "refs", "refCat": "zones" },
+      { "key": "tags", "label": "標籤", "type": "tags" }
+    ]
   }
 ]
