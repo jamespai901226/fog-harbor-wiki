@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ash-filter",
+    "name": "濾灰罐",
+    "rarity": "普通",
+    "value": 40,
+    "weight": 0.3,
+    "extractable": false,
+    "foundIn": ["old-docks", "bell-market"],
+    "tags": ["消耗品", "防護"],
+    "desc": "防灰面罩的替換濾芯，一罐能撐大約十分鐘。",
+    "lore": "噴發第一週，藥局的濾灰罐就被搶空了。現在市面上流通的多半是漁會倉庫裡翻出來的舊庫存，罐身上還印著二十年前的保存期限。"
+  },
+  {
+    "id": "gas-mask",
+    "name": "防灰面罩",
+    "rarity": "普通",
+    "value": 150,
+    "weight": 0.9,
+    "extractable": true,
+    "foundIn": ["old-docks", "bell-market", "geo-lab"],
+    "tags": ["裝備", "防護"],
+    "desc": "進入灰圈的基本配備，沒有它在灰裡撐不過三分鐘。",
+    "lore": "港務局在噴發前發放過一批，但大多數居民逃難時都沒帶走。老撤離者會告訴新人：面罩可以借，濾灰罐不能借。"
+  },
+  {
+    "id": "canned-ration",
+    "name": "罐頭口糧",
+    "rarity": "普通",
+    "value": 30,
+    "weight": 0.4,
+    "extractable": false,
+    "foundIn": ["bell-market"],
+    "tags": ["消耗品", "食物"],
+    "desc": "回復體力用。罐身被灰燙過，撤離時會隨灰一起損毀。",
+    "lore": "鐘樓市集的雜貨攤至今仍堆滿罐頭，只是大多已經被高溫烤到膨脹。能吃的那幾罐，通常要往地下室找。"
+  },
+  {
+    "id": "bell-tower-key",
+    "name": "鐘樓鑰匙",
+    "rarity": "稀有",
+    "value": 600,
+    "weight": 0.1,
+    "extractable": true,
+    "foundIn": ["bell-market"],
+    "tags": ["鑰匙", "任務"],
+    "desc": "能打開鐘樓頂層的鐵門。據說上面還有人留下的物資箱。",
+    "lore": "鐘樓的敲鐘人在噴發當天沒有撤離，他把自己鎖在頂層，持續敲鐘替港口的船指引方向。鑰匙是在他的外套口袋裡找到的。"
+  },
+  {
+    "id": "thermal-map",
+    "name": "地熱等溫圖",
+    "rarity": "稀有",
+    "value": 900,
+    "weight": 0.2,
+    "extractable": true,
+    "foundIn": ["geo-lab"],
+    "tags": ["情報"],
+    "desc": "標示熔岩轟炸區落點的研究圖表，能預判下一波轟炸的位置。",
+    "lore": "地熱研究所在噴發前三個月就畫出了這張圖，報告送到市政府後沒有下文。現在它成了撤離者之間最搶手的情報。"
+  },
+  {
+    "id": "obsidian-core",
+    "name": "黑曜晶核",
+    "rarity": "傳說",
+    "value": 4800,
+    "weight": 1.2,
+    "extractable": true,
+    "foundIn": ["geo-lab"],
+    "tags": ["貴重品", "研究樣本"],
+    "desc": "從火山口採集的結晶樣本，在灰裡會微微發熱，是安全屋裡最值錢的東西。",
+    "lore": "研究所最後一批樣本封在地下三樓的保險櫃裡。沒人知道它為什麼會發熱，但收購商願意用一整箱濾灰罐換一顆。"
+  }
+]

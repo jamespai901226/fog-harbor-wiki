@@ -1,0 +1,12 @@
+{
+  "id": "english-kebab-case-id",
+  "name": "中文名稱",
+  "rarity": "普通 | 稀有 | 傳說（三選一）",
+  "value": 0,
+  "weight": 0.0,
+  "extractable": false,
+  "foundIn": ["必須是 data/zones.json 裡已存在的 id"],
+  "tags": ["1～3 個標籤"],
+  "desc": "一句話說明用途，40 字以內。",
+  "lore": "背景故事，40～120 字，要和霧港、赤喉火山的世界觀一致。"
+}

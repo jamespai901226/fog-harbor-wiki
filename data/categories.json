@@ -1,0 +1,31 @@
+[
+  {
+    "key": "items",
+    "name": "道具",
+    "icon": "🎒",
+    "file": "data/items.json",
+    "template": "templates/items.json",
+    "desc": "霧港廢墟中能搜刮到的物資。只有標示「可帶回」的物品能撐過火山灰，回到安全屋。",
+    "fields": [
+      { "key": "rarity", "label": "稀有度", "type": "rarity", "card": true },
+      { "key": "value", "label": "價值", "type": "number", "unit": "金幣", "card": true },
+      { "key": "weight", "label": "重量", "type": "number", "unit": "kg" },
+      { "key": "extractable", "label": "撤離", "type": "bool", "trueText": "可帶回", "falseText": "撤離即損毀", "card": true },
+      { "key": "foundIn", "label": "出現區域", "type": "refs", "refCat": "zones" },
+      { "key": "tags", "label": "標籤", "type": "tags" }
+    ]
+  },
+  {
+    "key": "zones",
+    "name": "地圖區域",
+    "icon": "🗺️",
+    "file": "data/zones.json",
+    "template": "templates/zones.json",
+    "desc": "霧港市的各個區域。火山灰圈會從赤喉火山一側開始，分階段吞沒整座城市。",
+    "fields": [
+      { "key": "danger", "label": "危險度", "type": "level", "card": true },
+      { "key": "ashPhase", "label": "灰圈覆蓋階段", "type": "number", "unit": "階段", "card": true },
+      { "key": "extractions", "label": "撤離點", "type": "tags" }
+    ]
+  }
+]

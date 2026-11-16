@@ -1,0 +1,9 @@
+{
+  "id": "english-kebab-case-id",
+  "name": "中文名稱",
+  "danger": 1,
+  "ashPhase": 1,
+  "extractions": ["至少一個撤離點名稱"],
+  "desc": "一句話描述這個區域，40 字以內。",
+  "lore": "背景故事，40～120 字，要和霧港、赤喉火山的世界觀一致。"
+}
